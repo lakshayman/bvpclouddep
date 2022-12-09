@@ -9,7 +9,7 @@ export default () => {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto Navbar__items text-right">
+                <ul class="navbar-nav mr-auto Navbar__items text-center">
                     <li className='Navbar_Desktop__MI'><div className='Navbar-Desktop__menu-item' onClick={()=>{document.getElementById('intro').scrollIntoView({behavior: 'smooth'});}}>Introduction</div></li>
                     <li className='Navbar_Desktop__MI'><div className='Navbar-Desktop__menu-item' onClick={()=>{document.getElementById('faculty').scrollIntoView({behavior: 'smooth'});}}>Faculty</div></li>
                     <li className='Navbar_Desktop__MI'><div className='Navbar-Desktop__menu-item' onClick={()=>{document.getElementById('training').scrollIntoView({behavior: 'smooth'});}}>Training</div></li>

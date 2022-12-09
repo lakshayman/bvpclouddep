@@ -44,8 +44,6 @@
 .Student__imageContainer {
   height: 450px;
   width: 450px;
-  background-color: aqua;
-  border-radius: 25px;
   flex: 1 0 auto;
 }
 
