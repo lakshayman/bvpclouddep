@@ -1,0 +1,41 @@
+.Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.Main__image {
+  width: 100%;
+  z-index: -1;
+}
+
+.Main__textContainer {
+  position: absolute;
+}
+
+.Main__text {
+  font-size: 56px;
+  color: white;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 1300px) {
+  .Main__image {
+    height: 750px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Main__text {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Main__text {
+    font-size: 32px;
+  }
+}

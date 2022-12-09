@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.Navbar {
+  width: 100%;
+  position: fixed;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Navbar__items {
+  display: flex;
+  justify-content: flex-end;
+  width: 82vw;
+}
+
+.Navbar-Desktop {
+    display: flex;
+    font-family: 'Sen', sans-serif;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    padding-right: 32px;
+    position: fixed;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.4)
+    );
+}
+
+.Navbar-Desktop__logo {
+    width: 15vw;
+    max-width: 200px;
+    min-width: 150px;
+    margin-top: 12px;
+}
+
+.Navbar-Desktop__menu-item {
+    color: white;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    padding: 0 16px;
+    margin: 0 16px;
+    margin-top: 16px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .Navbar_Desktop__MI {
+        width: 100%;
+    }
+
+    .Navbar__items {
+      width: 100%;
+    }
+
+    .Navbar-Desktop__menu-item {
+      padding: 0;
+      margin: 0;
+  }
+}

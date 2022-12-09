@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+.Training {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 20px 7vw;
+}
+
+.Training__heading {
+  font-weight: 900;
+  font-size: 48px;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Training__desc {
+  font-size: 24px;
+  color: white;
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  .Training__heading {
+    font-size: 32px;
+  }
+
+  .Training__desc {
+    font-size: 20px;
+  }
+}
